@@ -9,3 +9,6 @@ With my combination of hands-on experience in a fast-paced industry and my dedic
 I am excited to leverage my skills and experience to contribute to a dynamic data analytics team in Dallas, Texas. My goal is to apply my expertise in data analysis to drive informed decision-making, optimize processes, and support business growth.
 
 My CV in [pdf](https://github.com/falurg/Portfolio/blob/main/Resume.pdf).
+
+## Table of Contents
+* Portfolio Projects
