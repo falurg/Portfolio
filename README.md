@@ -11,6 +11,13 @@ Description: I undertook a project centered around time series analysis and fore
 Skills: Data cleaning, data analysis, machine learning
 
 Utilized: Python, Pandas, NumPy, MatPlotLib, statsmodels
+
+### [Weather Dashboard](https://public.tableau.com/views/weather_dashboard_16864917451710/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link)
+
+Skills: Data visualization
+
+Utilized: Tableau
+
 ### Exploratory Data Analysis
 Description: In this analysis, we will delve into the NBA player stats spanning more than three decades, encompassing a wide range of data points including scoring averages, shooting percentages, player positions, foul frequency, and player efficiency ratings. Through this analysis, we seek to provide a comprehensive understanding of player performance, team dynamics, and the broader trends that have shaped the NBA over the years.
 
