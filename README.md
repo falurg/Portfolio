@@ -7,3 +7,5 @@ To pursue my goal of becoming a data analyst, I have taken it upon myself to exp
 With my combination of hands-on experience in a fast-paced industry and my dedicated self-learning efforts, I am confident in my ability to excel as a data analyst. My strong analytical mindset, attention to detail, and passion for turning data into actionable insights make me a suitable candidate for any data-related role.
 
 I am excited to leverage my skills and experience to contribute to a dynamic data analytics team in Dallas, Texas. My goal is to apply my expertise in data analysis to drive informed decision-making, optimize processes, and support business growth.
+
+My CV in [pdf]([url](https://github.com/falurg/Portfolio/blob/main/Resume.pdf)).
