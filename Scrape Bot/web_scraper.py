@@ -1,3 +1,5 @@
+# WORK IN PROGRESS
+
 import requests
 from bs4 import BeautifulSoup
 import tkinter as tk
@@ -7,16 +9,16 @@ import csv
 
 
 def scrape_web():
-    # get the url
+    # Get the url
     url = url_entry.get()
     search_terms = search_entry.get().split(',')
 
-    # make a request to the site
+    # Make a request to the site
     response = requests.get(url)
 
-    # check if request was successful
+    # Check if request was successful
     if response.status_code == 200:
-        # parse html content with soup
+        # Parse html content with soup
         soup = BeautifulSoup(response.content, 'html.parser')
 
         results = []
@@ -48,17 +50,36 @@ def scrape_web():
         result_text.insert(tk.END, f'Error: {response.status_code}')
 
 
+# def export_data():
+#     data = result_text.get(1.0, tk.END)
+#
+#     file_path = filedialog.asksaveasfilename(defaultextension='.csv', filetypes=[('CSV Files', '*.csv')])
+#
+#     if file_path:
+#         with open(file_path, 'w', encoding='utf-8', newline='') as f:
+#             writer = csv.writer(f)
+#             writer.writerow([data])
+#
+#         result_text.insert(tk.END, f'\nData exported to: {file_path}')
+
 def export_data():
     data = result_text.get(1.0, tk.END)
 
     file_path = filedialog.asksaveasfilename(defaultextension='.csv', filetypes=[('CSV Files', '*.csv')])
 
     if file_path:
-        with open(file_path, 'w', encoding='utf-8', newline='') as f:
-            writer = csv.writer(f)
-            writer.writerow([data])
+        try:
+            export_to_csv(file_path, data)
+            messagebox.showinfo("Success", f"Data exported to: {file_path}")
+        except Exception as e:
+            messagebox.showerror("Error", str(e))
 
-        result_text.insert(tk.END, f'\nData exported to: {file_path}')
+
+def export_to_csv(file_path, data):
+    lines = data.strip().split('\n')
+    with open(file_path, 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerows(lines)
 
 
 window = tk.Tk()
