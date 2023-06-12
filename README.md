@@ -11,3 +11,7 @@ Utilized: Python, Pandas, NumPy, MatPlotLib, statsmodels
 Description: In this analysis, we will delve into the NBA player stats spanning more than three decades, encompassing a wide range of data points including scoring averages, shooting percentages, player positions, foul frequency, and player efficiency ratings. Through this analysis, we seek to provide a comprehensive understanding of player performance, team dynamics, and the broader trends that have shaped the NBA over the years.
 Skills: Web scraping, data cleaning, data analysis, regex
 Utilized: Python, Selenium, BeautifulSoup, Pandas, NumPy, Seaborn, MatPlotLib
+### Web Scraping GUI (work in progress)
+Description: After finishing Exploratory Data Analysis (EDA) on NBA statistics, my curiosity and desire to expand my data collection capabilities led me to explore web scraping. Motivated by the need to gather valuable data from various websites, I embarked on a journey to learn more about web scraping techniques. To enhance my skills, I developed a custom graphical user interface (GUI) using Python's Tkinter library, providing an interactive platform for web scraping.
+Skills: Web scraping
+Utilized: Python, BeautifulSoup, Tkinter, requests
