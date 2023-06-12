@@ -11,4 +11,8 @@ I am excited to leverage my skills and experience to contribute to a dynamic dat
 My CV in [pdf](https://github.com/falurg/Portfolio/blob/main/Resume.pdf).
 
 ## Table of Contents
+* [About](#about)
 * Portfolio Projects
+
+## Portfolio Projects
+### Sentiment Analysis
