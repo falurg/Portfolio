@@ -1,23 +1,17 @@
-## Projects
-### Sentiment Analysis
-Description: In this sentiment analysis project, we aimed to classify movie reviews as positive or negative. After performing data preprocessing, exploratory data analysis, and training a logistic regression model using a bag-of-words representation, we achieved an accuracy of 88.74%. The model demonstrated balanced precision, recall, and F1-score for both sentiment classes, indicating its effectiveness in classifying movie reviews.
+# Falur's Portfolio
 
-Skills: Data cleaning, data analysis, feature engineering, model training and evaluation <br>
-Utilized: Python, Pandas, MatPlotLib, NLTK, WordCloud, scikit-learn
+## Machine Learning
+| Link | Tools | Description |
+|---|---|---|
+| [Analyzing IMDb Movie Reviews for Sentiment Analysis](https://github.com/falurg/Portfolio/blob/main/IMDB%20Sentiment%20Analysis/movie_reviews.ipynb) | Python (Pandas, MatPlotLib, NLTK, WordCloud, Scikit-learn), JupyterLab | In this sentiment analysis project, we aimed to classify movie reviews as positive or negative. After performing data preprocessing, exploratory data analysis, and training a logistic regression model using a bag-of-words representation, we achieved an accuracy of 88.74%. The model demonstrated balanced precision, recall, and F1-score for both sentiment classes, indicating its effectiveness in classifying movie reviews. |
+| [Time Series Analysis and Weather Forecasting Project](https://github.com/falurg/Portfolio/blob/main/Iceland%20Weather%20Data/weather_data.ipynb) | Python (Pandas, NumPy, MatPlotLib, statsmodels), JupyterLab  | I undertook a project centered around time series analysis and forecasting of weather data in Reykjavik, Iceland. The project involved analyzing historical weather patterns and utilizing the SARIMA (Seasonal ARIMA) model to predict future temperature trends. By applying advanced modeling techniques, the project aimed to gain insights into the region's weather patterns and contribute to improved forecasting accuracy. |
 
-### Time Series and Forecasting
-Description: I undertook a project centered around time series analysis and forecasting of weather data in Reykjavik, Iceland. The project involved analyzing historical weather patterns and utilizing the SARIMA (Seasonal ARIMA) model to predict future temperature trends. By applying advanced modeling techniques, the project aimed to gain insights into the region's weather patterns and contribute to improved forecasting accuracy.
+***
 
-Skills: Data cleaning, data analysis, machine learning <br>
-Utilized: Python, Pandas, NumPy, MatPlotLib, statsmodels
-
-### [Weather Dashboard](https://public.tableau.com/views/weather_dashboard_16864917451710/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link)
-
-Skills: Data visualization <br>
-Utilized: Tableau
-
-### Exploratory Data Analysis
-Description: In this analysis, we will delve into the NBA player stats spanning more than three decades, encompassing a wide range of data points including scoring averages, shooting percentages, player positions, foul frequency, and player efficiency ratings. Through this analysis, we seek to provide a comprehensive understanding of player performance, team dynamics, and the broader trends that have shaped the NBA over the years.
+## Python
+| Link | Tools | Description |
+|---|---|---|
+| NBA Statistics | Python (Selenium, BeautifulSoup, Pandas, NumPy, Seaborn, MatPlotLib) | In this analysis, we will delve into the NBA player stats spanning more than three decades, encompassing a wide range of data points including scoring averages, shooting percentages, player positions, foul frequency, and player efficiency ratings. Through this analysis, we seek to provide a comprehensive understanding of player performance, team dynamics, and the broader trends that have shaped the NBA over the years. |
 
 Skills: Web scraping, data cleaning, data analysis, regex <br>
 Utilized: Python, Selenium, BeautifulSoup, Pandas, NumPy, Seaborn, MatPlotLib
