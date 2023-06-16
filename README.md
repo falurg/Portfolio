@@ -1,5 +1,7 @@
 # Falur's Portfolio
 
+Hey there, welcome to my data portfolio! Here, I've put together a brief summary of my projects in the data field. Take a look and feel free to explore!
+
 ## Machine Learning
 | Link | Tools | Description |
 |---|---|---|
