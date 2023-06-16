@@ -1,6 +1,6 @@
 # Falur's Portfolio
 
-My data portfolio - a snapshot of my projects and achievements in the data field. Enjoy!
+My data portfolio - a snapshot of my projects in the data field. Enjoy!
 
 ## Machine Learning
 | Link | Tools | Description |
