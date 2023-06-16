@@ -2,6 +2,8 @@
 
 My data portfolio - a snapshot of my projects in the data field. Enjoy!
 
+## Table of Contents
+- [Machine Learning](#machine_learning)
 ## Machine Learning
 | Link | Tools | Description |
 |---|---|---|
